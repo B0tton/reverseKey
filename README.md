@@ -20,8 +20,8 @@ reverseKey can
 Usage:
 
 ```
-reverseKey.exe AES_key_in_hex
-reverseKey.exe Round_key(s)_in_hex Initial_round_key_number_between_0_and_10#11#13
+python reverseKey.py AES_key_in_hex
+python reverseKey.py Round_key(s)_in_hex Initial_round_key_number_between_0_and_10#11#13
 ```
 
 The AES key size is deduced from the size of the parameter, so
@@ -110,4 +110,3 @@ python reverseKey.py 4D69A4975189FCA00DB0AC8F686EE58C033BE6307A3C13C226DF38591EE
 
 ---
 
-### 
